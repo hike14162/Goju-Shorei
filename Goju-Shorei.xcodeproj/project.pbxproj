@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521598A51D16187600229DA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521598A41D16187600229DA1 /* AppDelegate.swift */; };
+		521598AA1D16187600229DA1 /* Goju-Shorei.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521598A81D16187600229DA1 /* Goju-Shorei.storyboard */; };
+		521598AC1D16187600229DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521598AB1D16187600229DA1 /* Assets.xcassets */; };
+		521598AF1D16187600229DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521598AD1D16187600229DA1 /* LaunchScreen.storyboard */; };
+		521598BA1D16187600229DA1 /* Goju_ShoreiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521598B91D16187600229DA1 /* Goju_ShoreiTests.swift */; };
+		521598C51D16187600229DA1 /* Goju_ShoreiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521598C41D16187600229DA1 /* Goju_ShoreiUITests.swift */; };
+		52286ED31D1C70F8007837C7 /* Goju_ShoreiTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52286ED21D1C70F8007837C7 /* Goju_ShoreiTests2.swift */; };
+		529FF3F31EE3292C00AFD5F1 /* gsTimerSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529FF3F21EE3292C00AFD5F1 /* gsTimerSetup.swift */; };
+		529FF3F51EE3329800AFD5F1 /* gsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529FF3F41EE3329800AFD5F1 /* gsState.swift */; };
+		52F1FD361D46C16A0081AD79 /* gsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F1FD351D46C16A0081AD79 /* gsHelper.swift */; };
+		52F1FD3E1D49368C0081AD79 /* Goju-Shorei_Karate.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F1FD3D1D49368C0081AD79 /* Goju-Shorei_Karate.png */; };
+		52FB1D531D3445D9000A4689 /* gsMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB1D521D3445D9000A4689 /* gsMainController.swift */; };
+		52FB1D551D344751000A4689 /* gsDataViewCont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB1D541D344751000A4689 /* gsDataViewCont.swift */; };
+		52FB1D571D344D27000A4689 /* gsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB1D561D344D27000A4689 /* gsModel.swift */; };
+		52FB1D591D357B6D000A4689 /* gsTechniques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB1D581D357B6D000A4689 /* gsTechniques.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		521598B61D16187600229DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521598991D16187600229DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521598A01D16187600229DA1;
+			remoteInfo = "Goju-Shorei";
+		};
+		521598C11D16187600229DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521598991D16187600229DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521598A01D16187600229DA1;
+			remoteInfo = "Goju-Shorei";
+		};
+		52286ED51D1C70F9007837C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521598991D16187600229DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521598A01D16187600229DA1;
+			remoteInfo = "Goju-Shorei";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		521598A11D16187600229DA1 /* Goju-Shorei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goju-Shorei.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		521598A41D16187600229DA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		521598A91D16187600229DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Goju-Shorei.storyboard"; sourceTree = "<group>"; };
+		521598AB1D16187600229DA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521598AE1D16187600229DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		521598B01D16187600229DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521598B51D16187600229DA1 /* Goju-ShoreiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Goju-ShoreiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		521598B91D16187600229DA1 /* Goju_ShoreiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goju_ShoreiTests.swift; sourceTree = "<group>"; };
+		521598BB1D16187600229DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521598C01D16187600229DA1 /* Goju-ShoreiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Goju-ShoreiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		521598C41D16187600229DA1 /* Goju_ShoreiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goju_ShoreiUITests.swift; sourceTree = "<group>"; };
+		521598C61D16187600229DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52286ED01D1C70F8007837C7 /* Goju-ShoreiTests2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Goju-ShoreiTests2.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52286ED21D1C70F8007837C7 /* Goju_ShoreiTests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goju_ShoreiTests2.swift; sourceTree = "<group>"; };
+		52286ED41D1C70F9007837C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529FF3F21EE3292C00AFD5F1 /* gsTimerSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gsTimerSetup.swift; sourceTree = "<group>"; };
+		529FF3F41EE3329800AFD5F1 /* gsState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gsState.swift; sourceTree = "<group>"; };
+		52F1FD351D46C16A0081AD79 /* gsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gsHelper.swift; sourceTree = "<group>"; };
+		52F1FD3D1D49368C0081AD79 /* Goju-Shorei_Karate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Goju-Shorei_Karate.png"; sourceTree = "<group>"; };
+		52FB1D521D3445D9000A4689 /* gsMainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gsMainController.swift; sourceTree = "<group>"; };
+		52FB1D541D344751000A4689 /* gsDataViewCont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gsDataViewCont.swift; sourceTree = "<group>"; };
+		52FB1D561D344D27000A4689 /* gsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gsModel.swift; sourceTree = "<group>"; };
+		52FB1D581D357B6D000A4689 /* gsTechniques.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gsTechniques.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5215989E1D16187600229DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521598B21D16187600229DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521598BD1D16187600229DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52286ECD1D1C70F8007837C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		521598981D16187600229DA1 = {
+			isa = PBXGroup;
+			children = (
+				521598A31D16187600229DA1 /* Goju-Shorei */,
+				521598B81D16187600229DA1 /* Goju-ShoreiTests */,
+				521598C31D16187600229DA1 /* Goju-ShoreiUITests */,
+				52286ED11D1C70F8007837C7 /* Goju-ShoreiTests2 */,
+				521598A21D16187600229DA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		521598A21D16187600229DA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				521598A11D16187600229DA1 /* Goju-Shorei.app */,
+				521598B51D16187600229DA1 /* Goju-ShoreiTests.xctest */,
+				521598C01D16187600229DA1 /* Goju-ShoreiUITests.xctest */,
+				52286ED01D1C70F8007837C7 /* Goju-ShoreiTests2.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		521598A31D16187600229DA1 /* Goju-Shorei */ = {
+			isa = PBXGroup;
+			children = (
+				521598A41D16187600229DA1 /* AppDelegate.swift */,
+				521598A81D16187600229DA1 /* Goju-Shorei.storyboard */,
+				521598AD1D16187600229DA1 /* LaunchScreen.storyboard */,
+				52F1FD341D46C14B0081AD79 /* Helpers */,
+				52FB1D5B1D357BC6000A4689 /* Assets */,
+				52FB1D5A1D357BA3000A4689 /* Model */,
+				52FB1D511D3445B2000A4689 /* Controllers */,
+				521598AB1D16187600229DA1 /* Assets.xcassets */,
+				521598B01D16187600229DA1 /* Info.plist */,
+			);
+			path = "Goju-Shorei";
+			sourceTree = "<group>";
+		};
+		521598B81D16187600229DA1 /* Goju-ShoreiTests */ = {
+			isa = PBXGroup;
+			children = (
+				521598B91D16187600229DA1 /* Goju_ShoreiTests.swift */,
+				521598BB1D16187600229DA1 /* Info.plist */,
+			);
+			path = "Goju-ShoreiTests";
+			sourceTree = "<group>";
+		};
+		521598C31D16187600229DA1 /* Goju-ShoreiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				521598C41D16187600229DA1 /* Goju_ShoreiUITests.swift */,
+				521598C61D16187600229DA1 /* Info.plist */,
+			);
+			path = "Goju-ShoreiUITests";
+			sourceTree = "<group>";
+		};
+		52286ED11D1C70F8007837C7 /* Goju-ShoreiTests2 */ = {
+			isa = PBXGroup;
+			children = (
+				52286ED21D1C70F8007837C7 /* Goju_ShoreiTests2.swift */,
+				52286ED41D1C70F9007837C7 /* Info.plist */,
+			);
+			path = "Goju-ShoreiTests2";
+			sourceTree = "<group>";
+		};
+		52F1FD341D46C14B0081AD79 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				52F1FD351D46C16A0081AD79 /* gsHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		52FB1D511D3445B2000A4689 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52FB1D521D3445D9000A4689 /* gsMainController.swift */,
+				52FB1D541D344751000A4689 /* gsDataViewCont.swift */,
+				529FF3F21EE3292C00AFD5F1 /* gsTimerSetup.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		52FB1D5A1D357BA3000A4689 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52FB1D561D344D27000A4689 /* gsModel.swift */,
+				529FF3F41EE3329800AFD5F1 /* gsState.swift */,
+				52FB1D581D357B6D000A4689 /* gsTechniques.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		52FB1D5B1D357BC6000A4689 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				52F1FD3D1D49368C0081AD79 /* Goju-Shorei_Karate.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		521598A01D16187600229DA1 /* Goju-Shorei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521598C91D16187600229DA1 /* Build configuration list for PBXNativeTarget "Goju-Shorei" */;
+			buildPhases = (
+				5215989D1D16187600229DA1 /* Sources */,
+				5215989E1D16187600229DA1 /* Frameworks */,
+				5215989F1D16187600229DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Goju-Shorei";
+			productName = "Goju-Shorei";
+			productReference = 521598A11D16187600229DA1 /* Goju-Shorei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		521598B41D16187600229DA1 /* Goju-ShoreiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521598CC1D16187600229DA1 /* Build configuration list for PBXNativeTarget "Goju-ShoreiTests" */;
+			buildPhases = (
+				521598B11D16187600229DA1 /* Sources */,
+				521598B21D16187600229DA1 /* Frameworks */,
+				521598B31D16187600229DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521598B71D16187600229DA1 /* PBXTargetDependency */,
+			);
+			name = "Goju-ShoreiTests";
+			productName = "Goju-ShoreiTests";
+			productReference = 521598B51D16187600229DA1 /* Goju-ShoreiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		521598BF1D16187600229DA1 /* Goju-ShoreiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521598CF1D16187600229DA1 /* Build configuration list for PBXNativeTarget "Goju-ShoreiUITests" */;
+			buildPhases = (
+				521598BC1D16187600229DA1 /* Sources */,
+				521598BD1D16187600229DA1 /* Frameworks */,
+				521598BE1D16187600229DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521598C21D16187600229DA1 /* PBXTargetDependency */,
+			);
+			name = "Goju-ShoreiUITests";
+			productName = "Goju-ShoreiUITests";
+			productReference = 521598C01D16187600229DA1 /* Goju-ShoreiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		52286ECF1D1C70F8007837C7 /* Goju-ShoreiTests2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52286ED91D1C70F9007837C7 /* Build configuration list for PBXNativeTarget "Goju-ShoreiTests2" */;
+			buildPhases = (
+				52286ECC1D1C70F8007837C7 /* Sources */,
+				52286ECD1D1C70F8007837C7 /* Frameworks */,
+				52286ECE1D1C70F8007837C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52286ED61D1C70F9007837C7 /* PBXTargetDependency */,
+			);
+			name = "Goju-ShoreiTests2";
+			productName = "Goju-ShoreiTests2";
+			productReference = 52286ED01D1C70F8007837C7 /* Goju-ShoreiTests2.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		521598991D16187600229DA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = TheCarrNation;
+				TargetAttributes = {
+					521598A01D16187600229DA1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 46527JQ8T6;
+						LastSwiftMigration = 0940;
+					};
+					521598B41D16187600229DA1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0940;
+						TestTargetID = 521598A01D16187600229DA1;
+					};
+					521598BF1D16187600229DA1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0940;
+						TestTargetID = 521598A01D16187600229DA1;
+					};
+					52286ECF1D1C70F8007837C7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0940;
+						TestTargetID = 521598A01D16187600229DA1;
+					};
+				};
+			};
+			buildConfigurationList = 5215989C1D16187600229DA1 /* Build configuration list for PBXProject "Goju-Shorei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 521598981D16187600229DA1;
+			productRefGroup = 521598A21D16187600229DA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521598A01D16187600229DA1 /* Goju-Shorei */,
+				521598B41D16187600229DA1 /* Goju-ShoreiTests */,
+				521598BF1D16187600229DA1 /* Goju-ShoreiUITests */,
+				52286ECF1D1C70F8007837C7 /* Goju-ShoreiTests2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5215989F1D16187600229DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521598AF1D16187600229DA1 /* LaunchScreen.storyboard in Resources */,
+				52F1FD3E1D49368C0081AD79 /* Goju-Shorei_Karate.png in Resources */,
+				521598AC1D16187600229DA1 /* Assets.xcassets in Resources */,
+				521598AA1D16187600229DA1 /* Goju-Shorei.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521598B31D16187600229DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521598BE1D16187600229DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52286ECE1D1C70F8007837C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5215989D1D16187600229DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB1D531D3445D9000A4689 /* gsMainController.swift in Sources */,
+				52FB1D571D344D27000A4689 /* gsModel.swift in Sources */,
+				52FB1D551D344751000A4689 /* gsDataViewCont.swift in Sources */,
+				529FF3F51EE3329800AFD5F1 /* gsState.swift in Sources */,
+				52F1FD361D46C16A0081AD79 /* gsHelper.swift in Sources */,
+				52FB1D591D357B6D000A4689 /* gsTechniques.swift in Sources */,
+				529FF3F31EE3292C00AFD5F1 /* gsTimerSetup.swift in Sources */,
+				521598A51D16187600229DA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521598B11D16187600229DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521598BA1D16187600229DA1 /* Goju_ShoreiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521598BC1D16187600229DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521598C51D16187600229DA1 /* Goju_ShoreiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52286ECC1D1C70F8007837C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52286ED31D1C70F8007837C7 /* Goju_ShoreiTests2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		521598B71D16187600229DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521598A01D16187600229DA1 /* Goju-Shorei */;
+			targetProxy = 521598B61D16187600229DA1 /* PBXContainerItemProxy */;
+		};
+		521598C21D16187600229DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521598A01D16187600229DA1 /* Goju-Shorei */;
+			targetProxy = 521598C11D16187600229DA1 /* PBXContainerItemProxy */;
+		};
+		52286ED61D1C70F9007837C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521598A01D16187600229DA1 /* Goju-Shorei */;
+			targetProxy = 52286ED51D1C70F9007837C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		521598A81D16187600229DA1 /* Goju-Shorei.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521598A91D16187600229DA1 /* Base */,
+			);
+			name = "Goju-Shorei.storyboard";
+			sourceTree = "<group>";
+		};
+		521598AD1D16187600229DA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521598AE1D16187600229DA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		521598C71D16187600229DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		521598C81D16187600229DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521598CA1D16187600229DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Goju-Shorei/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thecarrnation.GojuShorei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		521598CB1D16187600229DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Goju-Shorei/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thecarrnation.GojuShorei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		521598CD1D16187600229DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Goju-ShoreiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecarrnation.Goju-ShoreiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goju-Shorei.app/Goju-Shorei";
+			};
+			name = Debug;
+		};
+		521598CE1D16187600229DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Goju-ShoreiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecarrnation.Goju-ShoreiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goju-Shorei.app/Goju-Shorei";
+			};
+			name = Release;
+		};
+		521598D01D16187600229DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Goju-ShoreiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecarrnation.Goju-ShoreiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Goju-Shorei";
+			};
+			name = Debug;
+		};
+		521598D11D16187600229DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Goju-ShoreiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecarrnation.Goju-ShoreiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Goju-Shorei";
+			};
+			name = Release;
+		};
+		52286ED71D1C70F9007837C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Goju-ShoreiTests2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecarrnation.Goju-ShoreiTests2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goju-Shorei.app/Goju-Shorei";
+			};
+			name = Debug;
+		};
+		52286ED81D1C70F9007837C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Goju-ShoreiTests2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecarrnation.Goju-ShoreiTests2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goju-Shorei.app/Goju-Shorei";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5215989C1D16187600229DA1 /* Build configuration list for PBXProject "Goju-Shorei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521598C71D16187600229DA1 /* Debug */,
+				521598C81D16187600229DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521598C91D16187600229DA1 /* Build configuration list for PBXNativeTarget "Goju-Shorei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521598CA1D16187600229DA1 /* Debug */,
+				521598CB1D16187600229DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521598CC1D16187600229DA1 /* Build configuration list for PBXNativeTarget "Goju-ShoreiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521598CD1D16187600229DA1 /* Debug */,
+				521598CE1D16187600229DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521598CF1D16187600229DA1 /* Build configuration list for PBXNativeTarget "Goju-ShoreiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521598D01D16187600229DA1 /* Debug */,
+				521598D11D16187600229DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52286ED91D1C70F9007837C7 /* Build configuration list for PBXNativeTarget "Goju-ShoreiTests2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52286ED71D1C70F9007837C7 /* Debug */,
+				52286ED81D1C70F9007837C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 521598991D16187600229DA1 /* Project object */;
+}

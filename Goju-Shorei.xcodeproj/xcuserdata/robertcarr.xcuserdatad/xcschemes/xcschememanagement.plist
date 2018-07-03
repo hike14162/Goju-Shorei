@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Goju-Shorei.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>521598A01D16187600229DA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>521598B41D16187600229DA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>521598BF1D16187600229DA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52286ECF1D1C70F8007837C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
