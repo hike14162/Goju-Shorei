@@ -11,7 +11,6 @@
 		521598AA1D16187600229DA1 /* Goju-Shorei.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521598A81D16187600229DA1 /* Goju-Shorei.storyboard */; };
 		521598AC1D16187600229DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521598AB1D16187600229DA1 /* Assets.xcassets */; };
 		521598AF1D16187600229DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521598AD1D16187600229DA1 /* LaunchScreen.storyboard */; };
-		529FF3F31EE3292C00AFD5F1 /* gsTimerSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529FF3F21EE3292C00AFD5F1 /* gsTimerSetup.swift */; };
 		529FF3F51EE3329800AFD5F1 /* gsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529FF3F41EE3329800AFD5F1 /* gsState.swift */; };
 		52F1FD361D46C16A0081AD79 /* gsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F1FD351D46C16A0081AD79 /* gsHelper.swift */; };
 		52F1FD3E1D49368C0081AD79 /* Goju-Shorei_Karate.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F1FD3D1D49368C0081AD79 /* Goju-Shorei_Karate.png */; };
@@ -28,7 +27,6 @@
 		521598AB1D16187600229DA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		521598AE1D16187600229DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		521598B01D16187600229DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		529FF3F21EE3292C00AFD5F1 /* gsTimerSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gsTimerSetup.swift; sourceTree = "<group>"; };
 		529FF3F41EE3329800AFD5F1 /* gsState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gsState.swift; sourceTree = "<group>"; };
 		52F1FD351D46C16A0081AD79 /* gsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gsHelper.swift; sourceTree = "<group>"; };
 		52F1FD3D1D49368C0081AD79 /* Goju-Shorei_Karate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Goju-Shorei_Karate.png"; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 			children = (
 				52FB1D521D3445D9000A4689 /* gsMainController.swift */,
 				52FB1D541D344751000A4689 /* gsDataViewCont.swift */,
-				529FF3F21EE3292C00AFD5F1 /* gsTimerSetup.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -197,7 +194,6 @@
 				529FF3F51EE3329800AFD5F1 /* gsState.swift in Sources */,
 				52F1FD361D46C16A0081AD79 /* gsHelper.swift in Sources */,
 				52FB1D591D357B6D000A4689 /* gsTechniques.swift in Sources */,
-				529FF3F31EE3292C00AFD5F1 /* gsTimerSetup.swift in Sources */,
 				521598A51D16187600229DA1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
